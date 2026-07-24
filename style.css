@@ -12,7 +12,6 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
 
 }
 
@@ -54,6 +53,10 @@ header {
 .hero {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+
 }
 
 .hero-img {
@@ -85,4 +88,84 @@ header {
   border: none;
   font-size: 12px;
   text-align: center;
+}
+
+.information {
+  display: flex;
+  background: #fff;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.info-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.info-img-left {
+  width: 100%;
+}
+
+.info-left-title {
+  margin: 32px 0 24px 0;
+}
+
+.info-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-right-card {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.info-img-right {
+  width: 35%;
+  height: auto;
+  max-width: 100%;
+}
+
+.info-right-text {
+  width: 65%;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 16px;
+}
+
+h2 .info-right-title {
+  margin-bottom: 8px;
+}
+
+a .info-right-text {
+  margin: 8px;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px 0 32px 0;
+  max-width: 1280px;
+  background: red;
+}
+
+figure h1 {
+  margin: 0 0 32px 0;
+  background: blueviolet;
+  text-align: center;
+}
+
+figure > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: rgb(110, 75, 75);
 }
