@@ -9,6 +9,9 @@ body {
   background-color: #9c9c9c;
 }
 
+.nav-link a {
+  color: black;
+}
 
 a {
   text-decoration: none;
@@ -52,16 +55,13 @@ header {
 
 .hero {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
-  justify-content: center;
-
+  max-width: 1280px;
 }
 
 .hero-img {
   max-width: 60%;
-  height: 50vh;
   padding: 32px 24px;
 
 }
@@ -71,6 +71,7 @@ header {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  margin-left: 24px;
 }
 
 .hero-title {
