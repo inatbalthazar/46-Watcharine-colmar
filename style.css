@@ -251,3 +251,121 @@ figure h1 {
 .thesis-right-text p {
   margin-top: 8px;
 }
+
+
+
+/* mobile---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  * {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9c9c9c;
+  margin: 0;
+}
+
+.nav-pc {
+  display: none;
+}
+
+.nav-mobile {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 64px;
+}
+
+.hero {
+  display: none;
+}
+
+.hero-mobile {
+  display: flex;
+  margin-top: 0;
+  font-size: 24px;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.hero-mobile img {
+  width: 100%;
+}
+
+.hero-text-mobile {
+  width: 100%;
+}
+
+.hero-title-mobile {
+  margin: 32px 16px 0 16px;
+}
+
+.hero-p {
+  margin: 32px 16px 0 16px;
+}
+
+.hero-btn-mobile {
+  width: 100%;
+  margin: 24px 16px 32px 16px;
+  display: block;
+  color: #fff;
+  background-color: #9c9c9c;
+  border: none;
+  padding: 8px 0px;
+  font-size: large;
+  font-weight: 700;
+}
+
+.information {
+  display: none;
+}
+
+.information-mobile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-left-mobile {
+  display: none;
+}
+
+.info-right-mobile {
+  width: 100%;
+  display: flex;
+}
+
+.info-img-right-mb {
+  width: 100px;
+  margin: 16px 16px 0;
+  text-align: center;
+  max-width: 700;
+}
+
+.info-right-text-mb {
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.info-right-title-mb {
+  margin-bottom: 8px;
+}
+
+.read-more-mb {
+  margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+}
